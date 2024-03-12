@@ -1,0 +1,123 @@
+
+
+#wrap{
+	border: solid 1px black;
+	background-color: RGB(96,204,103,0.5);
+	width: 100%;
+	padding: 10px;
+}
+
+#products{
+	border: solid 1px red;
+	width: 100%;
+}
+
+#hero{
+	border: solid 1px blue;
+	height:400px;
+	width: 100%;
+}
+
+.heading{
+	border: solid 1px green;
+	text-align: center;
+
+}
+.productRow1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	align-items: center;
+}
+.productImage{
+	/*border : solid 1px black;*/
+	padding : 30px;
+	border-radius : 10px;
+	justify-content: center;
+	/*margin : 50px;*/
+}
+.productDescription{
+	/*margin : 50px;*/
+	padding : 30px;
+}
+.productRow2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+.testimonialRow{
+	margin-bottom :10px;
+	justify-content:space-around;
+	display: flex;
+	flex-direction: row;
+}
+.tesimonial{
+	display : flex;
+}
+
+.testimonialImage{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#text{
+	width: 90%;
+	height:200px;
+	margin: auto;
+	margin-top: 70px;
+	background-color: #F7F7F7;
+
+	/*position :absolute;*/
+	/*top: 200px;*/
+
+	/*left:10px;*/
+	z-index: 10;
+	display: flex;
+	padding-top: 3em;
+	padding-bottom:  3em;
+	justify-content: center;
+	align-items: center;
+}
+nav ul{/*this is the list:*/
+	list-style: none;/*remove the bullet*/
+	padding : 0px;/*remove the padding*/
+
+	/*reset the list to 0*/
+	border: solid 1px black;
+	display : flex; /*change the order of the list-->displayed horizontally*/
+	flex-direction: column;
+	justify-content: center;
+}
+nav ul a:link{
+	border: solid 0px black;
+	flex-grow: 1;
+	padding: 30px;
+	text-align : left;
+
+	color :#E3E3E3;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family : sans-serif ;
+	font-weight: bold;
+
+}
+nav ul a: hover{
+	background-color: #43FAD6
+	color : white;
+}
+nav ul a:focus{
+	border-color : #43F7D5;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+nav ul a:active{
+	background-color: #4359F7;
+	color-white;
+	text-decoration: underline;
+}
+nav ul a:li{
+	border : solid 0px black;
+}
+
+

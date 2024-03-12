@@ -1,0 +1,12 @@
+body{
+	background-color :rgba(91,0,24,0.5)
+}
+
+
+.centeredBox{
+	border : solid 1px black;
+	height : 100px;
+	width : 960px;
+	background-color : black;
+	margin : 0 auto ; /*center the box*/
+}

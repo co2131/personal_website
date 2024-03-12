@@ -1,0 +1,77 @@
+@font-face {
+  font-family: logoType;
+  src: url("../fonts/takecover.ttf");
+}
+
+
+.col-md-12,
+.col-md-4,
+.col-md-8,
+.col-md-1,
+.col-md-2,
+.col-md-6{
+	border : solid 0px black;
+}
+
+#logo{
+	font-family: logoType;
+	font-size : 50pt;
+}
+
+.noPadding{
+	padding : 0px;
+}
+
+.topPadding{
+	padding-top: 50px;
+}
+
+.center{
+	text-align : center;
+}
+
+.cardImage{
+	height : 200px;
+}
+
+.cardText{
+	height : 200px;
+}
+
+.sidePadding{
+	padding-left : 50px;
+	padding-right : 50px;
+}
+
+#mainArea{
+	min-height : 90vh;
+}
+
+.donBtn{
+	width : 150px;
+	margin : 20px;
+}
+
+footer{
+	background : black;
+	color : white;
+	height : 300px;
+}
+
+#socialMedia div{
+	display : flex;
+	justify-content: center;
+}
+
+#socialMedia i{
+	font-size : 34pt;
+	margin : 10px;
+}
+
+#socialMedia i:hover{
+	color : blue;
+	cursor : pointer;
+}
+
+
+

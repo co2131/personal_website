@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Komika;
+  src: url("../font/KOMIKAX_.ttf");
+}
+
+
+.col-md-1,
+.col-md-4,
+.col-md-6,
+.col-md-12{
+	border : solid 1px black;
+}
+.col-md-12{
+	padding : 15px;
+}
+
+header{
+	height : 200px;
+}
+
+/*nav{
+	height : 100px;
+}
+*/
+#mainArea{
+	min-height: 50vh;
+}
+
+#subArea{
+	min-height: 25vh;
+}
+#aboutSite{
+	min-height: 25vh;
+}
+
+footer{
+	min-height: 60vh;
+}
+
+
+h1{
+	position: absolute;
+	left: 200px;
+	top: 250px;
+	color: white;
+	font-size: 80px;
+}

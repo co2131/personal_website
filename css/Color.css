@@ -1,0 +1,140 @@
+Color
+
+
+red, green, blue, black, white, pink, purple teal
+
+---------------------------------------------------------------
+hexadecimal
+-there are up 16 possible value
+
+
+Value to put in for RGB: 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+
+#_ _ _
+ R G B
+
+#_ _ _ _ _ _ 
+ R R G G B B 
+
+ # 000 = Black = #000000
+
+ # FFF = White = #FFFFFF
+
+ # F00 = Red = #FF0000
+
+ # 0F0 = Green = #00FF00
+
+ # 00F = Blue = #0000FF
+
+ # 666 = Grey #666666
+
+ # EEE = Light Grey #EEEEEE
+
+ # 333 = Dark Grey #333333
+
+ --website for color: adobe color--
+
+-------------------------------------------------------------
+Another way to do color: functions
+rgba(_,_,_,_) and rgb(_,_,_)
+
+
+RGB values = 0,1,2,3,4,5,6,....255
+
+#red = RGB(255,0,0);
+#green = rgb(0,255,0);
+#blue = rgb(0,0,255);
+#light grey = rgb(200,200,200);
+#black = rgb(0,0,0);
+
+
+
+rgba:  value of a = 0,1 (0% fully transparent and 100% fully visible)---tranparency
+
+#red = rgba(255,0,0,1);
+#green = rgba(0,255,0,1);
+#blue = rgba(0,0,255,1)
+#light grey = rgba(200,200,200,1);
+#black = rgba(0,0,0,1)
+
+-----------------------------------------------------------------------------------
+for print we use CMYK
+
+C=Cyan
+M=Megenta
+Y=Yellow
+K=Black
+
+-------------------------------------------------------------
+Centering Content and Blocks
+p{
+	text
+}
+
+#centering block comments
+div{
+	witdth:960px;
+	margin:0 auto;
+}
+-----------------------------------------------
+content boxes:horizontal/inline
+<A>,<P>,...
+inline block
+----------  ------------ ------------
+|        |  |          | |          |
+----------  ------------ ------------
+Structure boxes: vertial 
+----------
+|        |
+----------
+----------
+|        |
+----------
+----------
+|        |
+----------
+-------------------------------------------------
+CSS Backgound
+
+body{
+	background-color:#000;
+}
+
+.Artwork{
+	background-image:url(art/artwork001.pgn);
+	background-repeat:no-repeat;
+	background-attachment:fixed; /*stays fix in the position*/
+	background-position: center;
+
+}
+------------------------------------
+body{
+	background-image : url(../images/background.webp);
+	background-repeat : no-repeat;
+}
+#wrap{
+	background-color : rgba(255,255,255,0.8)
+	background-attachment:fixed;
+}
+------------------------------------
+.missionStatement{
+	color:#011500;
+	font-family:"verdana";
+	font-weight:bold;
+	font-size:14pt;
+	line-height:20pt;
+	letter-spacing:10px;
+}
+----------------------------------------
+installing font
+
+place to get free font: datont.com
+look for a (.ttf) or (.otf)
+ttf= True type font
+otf= open type font
+
+@font-face{
+	font-family: myCustomFont;
+	src: url(../fonts/CELTG__.TTF);
+}
+-----------------------------------------

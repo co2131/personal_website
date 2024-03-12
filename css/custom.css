@@ -1,0 +1,137 @@
+/*
+#4359F7
+#3A76D6
+#4CB5ED
+#3AC9D6
+#4CB5ED= 
+#43FAD6 = 67 250 214 98
+*/
+@font-face {
+	font-family: conture ;
+	scr: url(../font/couture/couture-bldit.otf);
+}
+title{
+	height : 70px;
+}
+body{
+	background-color : #e0e0e0;
+	padding : 200px;
+}
+
+ #wrap{
+ 	border : solid 1px #4359F7; /*add border*/
+ 	width : 1024px;   /*gives a fix width*/
+ 	margin : 0 auto; /*margin onthe side center the box*/
+ }
+
+
+header{
+	height : 150px;
+	background-color : teal;
+	padding : 50px;
+	font-size : 70pt;
+	font-family: sans-serif;
+	color : white;
+}
+
+nav{
+
+}
+nav ul{/*this is the list:*/
+	list-style: none;/*remove the bullet*/
+	padding : 0px;/*remove the padding*/
+
+	/*reset the list to 0*/
+	border: solid 1px black;
+	display : flex; /*change the order of the list-->displayed horizontally*/
+
+}
+nav ul a:link{
+	border: solid 0px black;
+	flex-grow: 1;
+	padding: 30px;
+	text-align : center;
+
+	color :#4359F7;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family : sans-serif ;
+	font-weight: bold;
+
+}
+nav ul a: hover{
+	background-color: #43FAD6
+	color : white;
+}
+nav ul a:focus{
+	border-color : #43F7D5;
+	color: #43FAD6;
+	text-decoration: underline;
+}
+nav ul a:active{
+	background-color: #4359F7;
+	color-white;
+	text-decoration: underline;
+}
+nav ul a:li{
+	border : solid 0px black;
+}
+
+
+.addSapce{
+	margin-bottom : 60px;
+	margin-top : 60px;
+}
+
+
+#mainArea{
+	border : solid 0px black;
+	display : flex; /*turn the sections horizonal*/
+}
+#mainArea section h1,
+#mainArea section p,
+#mainArea section blockquote
+{
+	padding-left : 30px;
+	padding-right : 30px;
+	font-family: conture;
+}
+
+#mainArea section blockquote{
+	background-color: white;
+	padding : 30px;
+	border-radius : 10px;
+	font-weight : bold;
+}
+
+footer{
+	border : solid 0px black;
+	display : flex;
+}
+footer section{
+	min-width: 50%;
+	max-width:50%;
+}
+
+#map{
+	border: solid 1px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#socialMedia{
+	border: solid 0px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#socialMedia img{
+	width : 40px;
+	height : 40px;
+	margin : 10px;
+}
+.fb{
+	fill : black;
+	width : 40px;
+	height : 40px;
+}
